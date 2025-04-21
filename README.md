@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# TechFix - Computer Repair Services Website
+
+A Next.js website for a computer repair service company with multi-language support, dark mode, and responsive design.
+
+## Features
+
+- 🌐 Multi-language support (English and Arabic)
+- 🌓 Dark/Light mode toggle
+- 📱 Fully responsive design
+- ⚡ Fast page loads with Next.js
+- 🎨 Styled with Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the project 
+2. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+```
+3. Start the development server:
+- Click the "Run" button in Replit, or
+- Run `npm run dev` in the Shell
+
+The site will be available at your Replit URL on port 5000.
+
+## Project Structure
+
+```
+├── public/
+│   ├── images/         # Static images
+│   └── locales/        # Translation files
+├── src/
+│   ├── app/           # Next.js app directory
+│   ├── components/    # React components
+│   └── context/       # React context providers
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Available Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Start production server
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Customization
 
-## Learn More
+### Adding New Languages
 
-To learn more about Next.js, take a look at the following resources:
+1. Create a new translation file in `public/locales/`
+2. Add the language option in `LanguageContext.js`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Modifying Theme
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The theme can be customized in:
+- `tailwind.config.js` - For colors and other design tokens
+- `src/app/globals.css` - For global styles
+- `ThemeContext.js` - For theme switching logic
 
-## Deploy on Vercel
+### Adding New Components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Place new components in the `src/components/` directory and import them as needed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Built With
+
+- Next.js
+- React
+- Tailwind CSS
+- Hero Icons
+
+## Environment
+
+This project runs on Replit and is configured for optimal performance in the Replit environment.

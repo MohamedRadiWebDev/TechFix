@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="50" viewBox="0 0 180 50" fill="none">
+  <g>
+    <path d="M25 10H45V40H25C16.716 40 10 33.284 10 25C10 16.716 16.716 10 25 10Z" fill="currentColor" class="text-blue-600 dark:text-blue-400"/>
+    <path d="M45 10H55C63.284 10 70 16.716 70 25C70 33.284 63.284 40 55 40H45V10Z" fill="currentColor" class="text-gray-800 dark:text-gray-200"/>
+    <text x="80" y="32" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="currentColor" class="text-gray-900 dark:text-white">TechFix</text>
+  </g>
+</svg>

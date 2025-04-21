@@ -1,0 +1,86 @@
+{
+    "meta": {
+      "title": "TechFix - Computer Repair Services",
+      "description": "Professional computer repair services including hardware and software maintenance for computers and laptops."
+    },
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About Us",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Professional Computer Repair Services",
+      "subtitle": "Expert solutions for all your computer and laptop problems",
+      "cta": "Get Started"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "We offer a wide range of computer repair and maintenance services",
+      "items": [
+        {
+          "id": 1,
+          "title": "Software Troubleshooting",
+          "description": "We diagnose and fix various software issues including system crashes, errors, and performance problems.",
+          "icon": "DesktopComputer"
+        },
+        {
+          "id": 2,
+          "title": "Formatting and OS Installation",
+          "description": "Complete system formatting and fresh installation of Windows, macOS, or Linux operating systems.",
+          "icon": "Download"
+        },
+        {
+          "id": 3,
+          "title": "Virus Removal",
+          "description": "Detection and removal of viruses, malware, spyware, and other malicious software from your device.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": 4,
+          "title": "Hardware Repair and Replacement",
+          "description": "Repair or replacement of damaged computer components including motherboards, RAM, hard drives, and more.",
+          "icon": "Chip"
+        },
+        {
+          "id": 5,
+          "title": "Cleaning and Thermal Paste Application",
+          "description": "Physical cleaning of computer components and application of fresh thermal paste to improve cooling efficiency.",
+          "icon": "Beaker"
+        },
+        {
+          "id": 6,
+          "title": "Data Recovery",
+          "description": "Recovery of lost or deleted data from damaged hard drives or other storage media.",
+          "icon": "Database"
+        }
+      ]
+    },
+    "about": {
+      "title": "About TechFix",
+      "content": "TechFix is a professional computer repair service with over 10 years of experience in the industry. Our team of certified technicians is dedicated to providing fast and reliable solutions for all your computer and laptop problems. We pride ourselves on our quality service, quick turnaround times, and affordable prices.",
+      "years": "10+ Years Experience",
+      "clients": "5000+ Happy Clients",
+      "repairs": "15000+ Successful Repairs"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with our team for any inquiries or to schedule a service appointment.",
+      "address": "123 Tech Street, Digital City, 12345",
+      "phone": "+1 (123) 456-7890",
+      "email": "info@techfix.example",
+      "hours": "Mon-Fri: 9am - 6pm | Sat: 10am - 4pm",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Send Message"
+      }
+    },
+    "footer": {
+      "copyright": "© 2023 TechFix. All rights reserved.",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    }
+  }
+  
